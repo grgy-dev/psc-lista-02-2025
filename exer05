@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+	    
+	    System.out.print("Digite o valor da viagem a alemanha: ");
+        Double Nota1 = input.nextDouble();
+        System.out.print("Digite o valor da viagem a Portugal: ");
+        Double Nota2 = input.nextDouble();
+        System.out.print("Digite o valor da viagem a Italia: ");
+        Double Nota3 = input.nextDouble();
+        System.out.print("informe quantas pessoas irao na viagem: ");
+        int pessoas = input.nextInt();
+        Double media = (Nota1 + Nota2 + Nota3) * pessoas;
+        
+
+        System.out.printf("A media das suas notas foram: %.2f", media);
+        
+    }
+}
