@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+	    
+	    System.out.print("Digite um numero: ");
+        int NumeroUm = input.nextInt();
+        System.out.print("Digite o Segundo Numero: ");
+        int NumeroDois = input.nextInt();
+        int soma = NumeroUm + NumeroDois;
+
+        System.out.println("numero escolhido foi: " + soma);
+        
+    }
+}
