@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class App {
+    public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+	    
+	    System.out.print("Digite sua nota A1: ");
+        Double Nota1 = input.nextDouble();
+        System.out.print("Digite sua nota A2: ");
+        Double Nota2 = input.nextDouble();
+        System.out.print("Digite sua nota A3: ");
+        Double Nota3 = input.nextDouble();
+        System.out.print("Digite sua nota A4: ");
+        Double Nota4 = input.nextDouble();
+        Double media = (Nota1 + Nota2 + Nota3 + Nota4) /4;
+        
+
+        System.out.printf("A media das suas notas foram: %.2f", media);
+        
+    }
+}
